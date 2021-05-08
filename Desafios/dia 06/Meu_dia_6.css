@@ -1,0 +1,120 @@
+body {
+  height: 100vh;
+  background-color: #1b1b1b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body ul li {
+  list-style: none;
+  color: #5b5b5b;
+  font-size: 90px;
+  letter-spacing: 15px;
+  -webkit-animation: lightning 1.4s linear infinite;
+          animation: lightning 1.4s linear infinite;
+}
+
+body ul li:nth-child(1) {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+body ul li:nth-child(2) {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+body ul li:nth-child(3) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+body ul li:nth-child(4) {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+body ul li:nth-child(5) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+body ul li:nth-child(6) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+body ul li:nth-child(7) {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+body ul li:nth-child(8) {
+  font-size: 75px;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+body ul li:nth-child(9) {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+body ul li:nth-child(10) {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+
+body ul li:nth-child(11) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes lightning {
+  0% {
+    color: #5b5b5b;
+    text-shadow: none;
+  }
+  90% {
+    color: #5b5b5b;
+    text-shadow: none;
+  }
+  100% {
+    color: #00eeff;
+    text-shadow: 0 0 7px #00eeff, 0 0 50px #00eeff;
+  }
+}
+
+@keyframes lightning {
+  0% {
+    color: #5b5b5b;
+    text-shadow: none;
+  }
+  90% {
+    color: #5b5b5b;
+    text-shadow: none;
+  }
+  100% {
+    color: #00eeff;
+    text-shadow: 0 0 7px #00eeff, 0 0 50px #00eeff;
+  }
+}
+/*# sourceMappingURL=Meu_dia_6.css.map */
