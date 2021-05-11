@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #38026b;
+}
+
+body .pendulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 10px solid silver;
+}
+
+body .pendulo span {
+  display: block;
+  width: 3px;
+  height: 300px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#53270d), color-stop(#8a450d), color-stop(#412c05), to(black));
+  background: linear-gradient(#53270d, #8a450d, #412c05, black);
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  position: relative;
+  margin: 0 29px;
+}
+
+body .pendulo span::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: radial-gradient(silver, gray, black);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+body .pendulo span:first-child {
+  -webkit-animation: LArm 2s ease-in infinite;
+          animation: LArm 2s ease-in infinite;
+}
+
+body .pendulo span:last-child {
+  -webkit-animation: RArm 2s ease-in infinite 1s;
+          animation: RArm 2s ease-in infinite 1s;
+}
+
+@-webkit-keyframes LArm {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: rotate(60deg);
+            transform: rotate(60deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes LArm {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: rotate(60deg);
+            transform: rotate(60deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes RArm {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes RArm {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+/*# sourceMappingURL=Desafio09.css.map */
