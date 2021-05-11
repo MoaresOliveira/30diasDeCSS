@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background: #1b1b1b;
+}
+
+.coracao {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-animation: batida 2s linear infinite;
+          animation: batida 2s linear infinite;
+}
+
+.coracao::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: red;
+}
+
+.coracao::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: red;
+}
+
+@-webkit-keyframes batida {
+  0% {
+    -webkit-transform: rotate(45deg) scale(1);
+            transform: rotate(45deg) scale(1);
+  }
+  25% {
+    -webkit-transform: rotate(45deg) scale(1);
+            transform: rotate(45deg) scale(1);
+  }
+  30% {
+    -webkit-transform: rotate(45deg) scale(1.4);
+            transform: rotate(45deg) scale(1.4);
+  }
+  50% {
+    -webkit-transform: rotate(45deg) scale(1.2);
+            transform: rotate(45deg) scale(1.2);
+  }
+  70% {
+    -webkit-transform: rotate(45deg) scale(1.4);
+            transform: rotate(45deg) scale(1.4);
+  }
+  100% {
+    -webkit-transform: rotate(45deg) scale(1);
+            transform: rotate(45deg) scale(1);
+  }
+}
+
+@keyframes batida {
+  0% {
+    -webkit-transform: rotate(45deg) scale(1);
+            transform: rotate(45deg) scale(1);
+  }
+  25% {
+    -webkit-transform: rotate(45deg) scale(1);
+            transform: rotate(45deg) scale(1);
+  }
+  30% {
+    -webkit-transform: rotate(45deg) scale(1.4);
+            transform: rotate(45deg) scale(1.4);
+  }
+  50% {
+    -webkit-transform: rotate(45deg) scale(1.2);
+            transform: rotate(45deg) scale(1.2);
+  }
+  70% {
+    -webkit-transform: rotate(45deg) scale(1.4);
+            transform: rotate(45deg) scale(1.4);
+  }
+  100% {
+    -webkit-transform: rotate(45deg) scale(1);
+            transform: rotate(45deg) scale(1);
+  }
+}
+/*# sourceMappingURL=Meu_dia_8.css.map */
