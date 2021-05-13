@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #7b7b7b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:100vh;
+}
+h1{
+    font-family: monospace;
+    Color: #fff;
+    font-size: 50px;
+}
+span::before{
+    content: "";
+    animation: troca 3s linear infinite;
+}
+@keyframes troca{
+    0%{content: '💻'}
+    50%{content: '🍕'}
+    100%{content: '🎮'}
+}
