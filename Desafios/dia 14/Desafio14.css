@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background: #1b1b1b;
+  font-family: sans-serif;
+}
+
+body h1 {
+  font-size: 200px;
+  text-transform: uppercase;
+  text-align: center;
+  color: transparent;
+  background: url(Desafio14.jpg);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-animation: txt_background 30s linear infinite;
+          animation: txt_background 30s linear infinite;
+}
+
+@-webkit-keyframes txt_background {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 75%;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@keyframes txt_background {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 75%;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+/*# sourceMappingURL=Desafio14.css.map */
