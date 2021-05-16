@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+body ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body ul li {
+  font-family: sans-serif;
+  list-style: none;
+  font-size: 80px;
+  letter-spacing: 20px;
+  -webkit-animation: loading 3s linear infinite;
+          animation: loading 3s linear infinite;
+}
+
+body ul li:nth-child(2) {
+  -webkit-animation-delay: .2s;
+          animation-delay: .2s;
+}
+
+body ul li:nth-child(3) {
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+
+body ul li:nth-child(4) {
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s;
+}
+
+body ul li:nth-child(5) {
+  -webkit-animation-delay: .8s;
+          animation-delay: .8s;
+}
+
+body ul li:nth-child(6) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+body ul li:nth-child(7) {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+
+@-webkit-keyframes loading {
+  0% {
+    color: crimson;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    letter-spacing: 20px;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  50% {
+    color: purple;
+    letter-spacing: -20px;
+    opacity: 1;
+  }
+  100% {
+    color: indigo;
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+    opacity: 0;
+    letter-spacing: 20px;
+  }
+}
+
+@keyframes loading {
+  0% {
+    color: crimson;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    letter-spacing: 20px;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  50% {
+    color: purple;
+    letter-spacing: -20px;
+    opacity: 1;
+  }
+  100% {
+    color: indigo;
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+    opacity: 0;
+    letter-spacing: 20px;
+  }
+}
+/*# sourceMappingURL=Desafio13.css.map */
