@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: #3b2868;
+  font-family: sans-serif;
+}
+
+body h1 {
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 10px;
+  text-shadow: 0 1px 0 #969595, 0 2px 0 #969595, 0 3px 0 #969595, 0 4px 0 #969595, 0 30px 15px rgba(0, 0, 0, 0.212);
+  -webkit-animation: wave 3s linear infinite;
+          animation: wave 3s linear infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes wave {
+  0% {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  100% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+}
+
+@keyframes wave {
+  0% {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  100% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+}
+/*# sourceMappingURL=Desafio15.css.map */
