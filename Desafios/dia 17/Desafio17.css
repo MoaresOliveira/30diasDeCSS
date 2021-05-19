@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: #16102c;
+  -webkit-perspective: 250px;
+          perspective: 250px;
+}
+
+body .loading {
+  position: absolute;
+  width: 125px;
+  height: 125px;
+  background: radial-gradient(#6a4bdd, #4526b4);
+  border-radius: 15px;
+  -webkit-animation: animate 3s linear infinite;
+          animation: animate 3s linear infinite;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    -webkit-transform: rotateX(0) rotateY(0);
+            transform: rotateX(0) rotateY(0);
+  }
+  50% {
+    -webkit-transform: rotateX(0) rotateY(180deg);
+            transform: rotateX(0) rotateY(180deg);
+  }
+  100% {
+    -webkit-transform: rotateX(180deg) rotateY(180deg);
+            transform: rotateX(180deg) rotateY(180deg);
+  }
+}
+
+@keyframes animate {
+  0% {
+    -webkit-transform: rotateX(0) rotateY(0);
+            transform: rotateX(0) rotateY(0);
+  }
+  50% {
+    -webkit-transform: rotateX(0) rotateY(180deg);
+            transform: rotateX(0) rotateY(180deg);
+  }
+  100% {
+    -webkit-transform: rotateX(180deg) rotateY(180deg);
+            transform: rotateX(180deg) rotateY(180deg);
+  }
+}
+/*# sourceMappingURL=Desafio17.css.map */
