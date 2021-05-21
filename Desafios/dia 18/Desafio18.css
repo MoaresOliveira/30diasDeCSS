@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background: #1b1b1b;
+}
+
+body .container {
+  cursor: default;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container li {
+  font-family: 'Creepster', cursive;
+  font-size: 100px;
+  list-style: none;
+  color: white;
+  -webkit-transition: 2s;
+  transition: 2s;
+  letter-spacing: 20px;
+}
+
+body .container li:nth-child(1) {
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+body .container li:nth-child(2) {
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+body .container li:nth-child(3) {
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+
+body .container li:nth-child(4) {
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
+
+body .container li:nth-child(5) {
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+
+body .container:hover li {
+  -webkit-transform: rotate(45deg) translateY(-200px);
+          transform: rotate(45deg) translateY(-200px);
+  opacity: 0;
+  -webkit-filter: blur(15px);
+          filter: blur(15px);
+}
+/*# sourceMappingURL=Desafio18.css.map */
