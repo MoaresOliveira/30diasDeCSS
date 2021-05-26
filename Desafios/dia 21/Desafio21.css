@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: #1b1b1b;
+}
+
+body ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 250px;
+  height: 250px;
+  border-bottom: 15px solid white;
+  position: relative;
+}
+
+body ul li {
+  list-style: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: white;
+  -webkit-animation: animate 1s linear infinite;
+          animation: animate 1s linear infinite;
+  -webkit-transform: translateY(435px);
+          transform: translateY(435px);
+}
+
+body ul li:nth-child(1) {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+body ul li:nth-child(2) {
+  -webkit-animation-delay: .25s;
+          animation-delay: .25s;
+}
+
+body ul li:nth-child(3) {
+  -webkit-animation-delay: .43s;
+          animation-delay: .43s;
+}
+
+body ul li:nth-child(4) {
+  -webkit-animation-delay: .34s;
+          animation-delay: .34s;
+}
+
+body ul li:nth-child(5) {
+  -webkit-animation-delay: .56s;
+          animation-delay: .56s;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  25% {
+    -webkit-transform: translateY(109px);
+            transform: translateY(109px);
+  }
+  50% {
+    -webkit-transform: translateY(218px);
+            transform: translateY(218px);
+  }
+  75% {
+    -webkit-transform: translateY(109px);
+            transform: translateY(109px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes animate {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  25% {
+    -webkit-transform: translateY(109px);
+            transform: translateY(109px);
+  }
+  50% {
+    -webkit-transform: translateY(218px);
+            transform: translateY(218px);
+  }
+  75% {
+    -webkit-transform: translateY(109px);
+            transform: translateY(109px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+/*# sourceMappingURL=Desafio21.css.map */
