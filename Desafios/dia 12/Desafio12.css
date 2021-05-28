@@ -39,7 +39,6 @@ body h1:before {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-
 body h1:hover::before {
   width: 100%;
 }
