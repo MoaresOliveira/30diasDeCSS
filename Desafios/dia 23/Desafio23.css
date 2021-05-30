@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #1b1b1b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+body a {
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 35px;
+}
+
+body a:hover {
+  -webkit-animation: animate .5s linear;
+          animation: animate .5s linear;
+}
+
+@-webkit-keyframes animate {
+  44% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  66% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  88% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+}
+
+@keyframes animate {
+  44% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  66% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  88% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+}
+/*# sourceMappingURL=Desafio23.css.map */
