@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Suez+One&display=swap");
+* {
+  font-family: 'Suez One', serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: red;
+  -webkit-animation: RGB 15s linear infinite;
+          animation: RGB 15s linear infinite;
+}
+
+body span {
+  color: black;
+  font-size: 50px;
+  -webkit-animation: RGB 15s linear infinite;
+          animation: RGB 15s linear infinite;
+}
+
+@-webkit-keyframes RGB {
+  0% {
+    background: #09ff00;
+    color: #132e08;
+  }
+  10% {
+    background: #af1c1c;
+    color: #691c1c;
+  }
+  20% {
+    background: #eecd13;
+    color: #463d0c;
+  }
+  30% {
+    background: #39e716;
+    color: #133809;
+  }
+  40% {
+    background: #17e9c6;
+    color: #082527;
+  }
+  50% {
+    background: #2718f8;
+    color: #060324;
+  }
+  60% {
+    background: #6f11eb;
+    color: #1f0a36;
+  }
+  70% {
+    background: #fc05c6;
+    color: #350831;
+  }
+  80% {
+    background: #eb0808;
+    color: #240505;
+  }
+  90% {
+    background: #f76504;
+    color: #311708;
+  }
+  100% {
+    background: #c1f508;
+    color: #202c0a;
+  }
+}
+
+@keyframes RGB {
+  0% {
+    background: #09ff00;
+    color: #132e08;
+  }
+  10% {
+    background: #af1c1c;
+    color: #691c1c;
+  }
+  20% {
+    background: #eecd13;
+    color: #463d0c;
+  }
+  30% {
+    background: #39e716;
+    color: #133809;
+  }
+  40% {
+    background: #17e9c6;
+    color: #082527;
+  }
+  50% {
+    background: #2718f8;
+    color: #060324;
+  }
+  60% {
+    background: #6f11eb;
+    color: #1f0a36;
+  }
+  70% {
+    background: #fc05c6;
+    color: #350831;
+  }
+  80% {
+    background: #eb0808;
+    color: #240505;
+  }
+  90% {
+    background: #f76504;
+    color: #311708;
+  }
+  100% {
+    background: #c1f508;
+    color: #202c0a;
+  }
+}
+/*# sourceMappingURL=Desafio28.css.map */
