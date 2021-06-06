@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #555;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1b1b1b;
+  border-bottom: 2px solid black;
+  height: 70px;
+}
+
+body header label {
+  top: 10px;
+  right: 20px;
+  position: absolute;
+  font-size: 30px;
+  color: white;
+  display: none;
+  cursor: pointer;
+}
+
+body header input {
+  display: none;
+}
+
+body header ul {
+  margin-right: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header ul li {
+  list-style: none;
+  margin-left: 10px;
+}
+
+body header ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+body header ul li a span {
+  color: #8db1f3;
+}
+
+@media only screen and (max-width: 500px) {
+  body header nav {
+    width: 100%;
+  }
+  body header nav label {
+    display: block;
+  }
+  body header nav ul {
+    display: none;
+    margin-top: 275px;
+    width: 100%;
+    opacity: 0;
+  }
+  body header nav ul li {
+    background-color: #1b1b1b;
+    display: block;
+    margin: 0;
+    border-bottom: 1px solid black;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+  }
+  body header nav input[type=checkbox]:checked + ul {
+    display: block;
+    -webkit-animation: animate .3s ease-in-out forwards;
+            animation: animate .3s ease-in-out forwards;
+    -webkit-animation-delay: .3s;
+            animation-delay: .3s;
+  }
+}
+
+@-webkit-keyframes animate {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+}
+
+@keyframes animate {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+}
+/*# sourceMappingURL=Desafio29.css.map */
